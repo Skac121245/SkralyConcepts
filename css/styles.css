@@ -6,7 +6,7 @@ body {
   padding: 2rem;
 }
 header { text-align: center; margin-bottom: 2rem; }
-h1, h2 { color: #FFD700; }
+h1, h2 { color: #fff404; }
 a { color: inherit; text-decoration: none; }
 
 .grid {
@@ -21,14 +21,16 @@ a { color: inherit; text-decoration: none; }
   border-radius: 6px;
   overflow: hidden;
   transition: transform 0.2s, border-color 0.2s;
+  height: calc(100% + 30px);
+  color: #d3d3d3;
 }
 .card:hover {
-  border-color: #FFD700;
+  border-color: #fff404;
   transform: scale(1.03);
 }
 .card img {
   width: 100%;
-  height: 180px;
+  height: 210px;
   object-fit: cover;
 }
 .card .info {
@@ -39,7 +41,7 @@ a { color: inherit; text-decoration: none; }
 .back {
   display: inline-block;
   margin-bottom: 1rem;
-  color: #FFD700;
+  color: #fff404;
   font-size: 1.1rem;
 }
 .back:hover {
