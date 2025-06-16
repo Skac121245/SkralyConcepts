@@ -34,7 +34,7 @@
     "id": "GarageDoor",
     "title": "Garage Door",
     "desc": "With the famous slot grab, ninja has evolved greatly (thanks Brett Sims). However, making the slot dynamic has never made its impact. With the garage door, athletes are challenged to lead with one hand into a super small 4.5 inch wide gap to pull the door down for the comfort of both hands.",
-    "thumbs": ["images/GarageDoorUp.JPG"],
+    "thumbs": ["images/GarageDoorUp.jpg"],
     "media": [
       {"type":"image", "src":"images/GarageDoorUp.jpg"},
       {"type":"image", "src":"images/GarageDoorDown.jpg"}
@@ -44,9 +44,9 @@
     "id": "S-hook",
     "title": "S-Hook",
     "desc": "Making its first appearance at the January WNL held at Action Norwood, the S-Hook is the only obstacle to force a large superman! No matter how you try and get out of it, you need to embrace the super powers and fly!",
-    "thumbs": ["images/image000001.jpeg"],
+    "thumbs": ["images/image000001.JPEG"],
     "media": [
-      {"type":"image", "src":"images/image000001.jpeg"},{"type":"image", "src":"images/S-hook.jpg"}
+      {"type":"image", "src":"images/image000001.JPEG"},{"type":"image", "src":"images/S-hook.jpg"}
       
     ]
   },
