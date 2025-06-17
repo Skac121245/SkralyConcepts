@@ -23,7 +23,7 @@
    {
     "id": "flickUp",
     "title": "Flick Up",
-    "desc": "Like and sideways board, but better! Flick up includes two 30 degree sloped sides that can be used as a more challenging sideways board. Also, the name flick up comes with the signature move performed as the athlete 'flicks up' on side to catch the hidden slot-cliff that comes at them. With so many possiblities, it's hard to not love the flicks!",
+    "desc": "Like a sideways board, but better! Flick up includes two 30 degree sloped sides that can be used as a more challenging sideways board. Also, the name flick up comes with the signature move performed as the athlete 'flicks up' on a side to catch the hidden slot-cliff that comes at them. With so many possiblities, it's hard to not love the flicks!",
     "thumbs": ["images/IMG_0097.JPG"],
     "media": [
       {"type":"image", "src":"images/IMG_0097.JPG"},
@@ -33,7 +33,7 @@
   {
     "id": "GarageDoor",
     "title": "Garage Door",
-    "desc": "With the famous slot grab, ninja has evolved greatly (thanks Brett Sims). However, making the slot dynamic has never made its impact. With the garage door, athletes are challenged to lead with one hand into a super small 4.5 inch wide gap to pull the door down for the comfort of both hands.",
+    "desc": "With the famous slot grab, ninja has evolved greatly (thanks Brett Sims). However, making the slot dynamic has never made its impact. With the Garage Door, athletes are challenged to lead with one hand into a small, 4.5 inch wide gap to pull the door down for the comfort of both hands.",
     "thumbs": ["images/GarageDoorUp.jpg"],
     "media": [
       {"type":"image", "src":"images/GarageDoorUp.jpg"},
@@ -43,7 +43,7 @@
   {
     "id": "S-hook",
     "title": "S-Hook",
-    "desc": "Making its first appearance at the January WNL held at Action Norwood, the S-Hook is the only obstacle to force a large superman! No matter how you try and get out of it, you need to embrace the super powers and fly!",
+    "desc": "Making its first appearance at the January WNL held at Action Norwood, the S-Hook is the only obstacle to force a big superman move! No matter how you try and get out of it, you need to embrace your super powers and fly!",
     "thumbs": ["images/image000001.JPEG"], 
     "media": [
       {"type":"image", "src":"images/image000001.JPEG"},{"type":"image", "src":"images/S-hook.jpg"}
@@ -53,7 +53,7 @@
   {
     "id": "Ghost",
     "title": "The Ghost",
-    "desc": "With pacman of course comes the ghosts. Chasing the chompers down, the ghosts are the most fearful part. This ghost features angled sides for an easy hang while adding angled slots for a harder grab. The cliff hangers on each side let the athlete flip the ghost up side down to earn 100 points and some style.",
+    "desc": "With pacman of course comes the ghosts. Chasing the chompers down, the ghosts are the most fearful part. This ghost features angled sides for an easy hang while adding angled slots for a harder grab. The cliff hangers on each side let the athlete flip the ghost upside down to earn 100 points and some style.",
     "thumbs": ["images/IMG_9798.JPEG"],
     "media": [
       {"type":"image", "src":"images/IMG_9798.JPEG"}, {"type":"image", "src":"images/ClamShell.jpg"},{"type":"video", "src":"videos/IMG_9797.MP4"}
@@ -63,7 +63,7 @@
   {
     "id": "Tiki",
     "title": "Tiki",
-    "desc": "Designed with bolt cutters in mind, this tiki is always having a good time. Making its first apperance at an Action Norwood WNL, this tiki challenges competitors to snag its last tooth with bolt cutters making for a fun precision challenge. ",
+    "desc": "Designed with bolt cutters in mind, this Tiki is always having a good time. Making its first apperance at an Action Norwood WNL, the Tiki challenges competitors to snag its last tooth with bolt cutters making for a fun precision challenge. ",
     "thumbs": ["images/Tiki3.jpg"],
     "media": [
       {"type":"image", "src":"images/Tiki3.jpg"}
@@ -73,7 +73,7 @@
   {
     "id": "DiamondRing",
     "title": "Diamond Ring",
-    "desc": "The Diamond Ring is almost too beutiful for the sport of ninja. Being able to magnetize sideways to a bar, this ring has infinite possibilities!",
+    "desc": "The Diamond Ring is almost too beautiful for the sport of ninja. Being able to magnetize sideways to a bar, the Diamond Ring has infinite possibilities!",
     "thumbs": ["images/Diamond Ring.jpg"],
     "media": [
       {"type":"image", "src":"images/Diamond Ring.jpg"}
@@ -83,7 +83,7 @@
   {
     "id": "Mustache",
     "title": "Mustache",
-    "desc": "This Mustache isn't hairy, it's made with comfort in mind. Used for flipping, this Mustache too the world by storm in late January. Yes, this obstacle was called 'Flippin' Stash'.",
+    "desc": "This Mustache isn't hairy, it's made with comfort in mind. Used for flipping, this Mustache took the world by storm in late January. Yes, this obstacle was called 'Flippin' Stash'.",
     "thumbs": ["images/Mustache.jpg"],
     "media": [
       {"type":"image", "src":"images/Mustache.jpg"}
@@ -93,7 +93,7 @@
   {
     "id": "OnAndOff",
     "title": "On-n-Off",
-    "desc": "Just a basic board with bearings, yes. Not the most complex, however the use case is quite fun. Already being in a WNL course this past February, I can say for sure that once you get on top of the slanted board, you are in for a wild jump backwards and huge swing through.",
+    "desc": "Just a basic board with bearings, yes. Not the most complex, however the use case is quite fun. Already being in a WNL course this past February, it is guaranteed that once you get on top of the slanted board, you are in for a wild jump backwards and huge swing through.",
     "thumbs": ["images/OnAndOff.jpg"],
     "media": [
       {"type":"image", "src":"images/OnAndOff.jpg"}
@@ -103,7 +103,7 @@
   {
     "id": "PsuhCliff",
     "title": "Push Cliff",
-    "desc": "Wait!? Its a cliff!? But it's hidden! I guess I must push to reveal!",
+    "desc": "Wait!? Its a cliff!? But it's hidden! I guess you must push to reveal!",
     "thumbs": ["images/PushCliff.jpg"],
     "media": [
       {"type":"image", "src":"images/PushCliff.jpg"},{"type":"image", "src":"images/Psuh Cliff Closed.jpg"},{"type":"image", "src":"images/Push Cliff Out.jpg"}
@@ -123,7 +123,7 @@
   {
     "id": "Locksmith",
     "title": "Locksmith",
-    "desc": "Instead of an easy link, this obstacle requires you to shove the two cliffs forwards, to unlock you rway to victory!",
+    "desc": "Instead of an easy link, this obstacle requires you to shove the two cliffs forwards, to unlock your way to victory!",
     "thumbs": ["images/Locksmith.jpg"],
     "media": [
       {"type":"image", "src":"images/Locksmith.jpg"}
@@ -133,7 +133,7 @@
   {
     "id": "Cage",
     "title": "Cage",
-    "desc": "Just like a shark cage, this one will protect you. The only catch is that this one might also give you nightmares. Using this with bolt cutters is possible on the metal standoffs. A single hand slot back got in the bottom or two hands can go around the sides like a UFO. Finally, Stage 4 Designs T-handles fit right in the bottom with a small twist!",
+    "desc": "Just like a shark cage, this one will protect you. The only catch is that this one might also give you nightmares. Using this with bolt cutters is possible on the metal standoffs and a single hand slot grab is in the bottom. Finally, Stage 4 Designs T-handles fit right in the bottom with a small twist!",
     "thumbs": ["images/Cage.jpg"],
     "media": [
       {"type":"image", "src":"images/Cage.jpg"}
