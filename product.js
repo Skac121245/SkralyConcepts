@@ -11,14 +11,25 @@ if (!id) {
         return;
       }
 
+      // Populate title and description
       document.getElementById('title').textContent = p.title;
       document.getElementById('desc').textContent = p.desc;
 
-      let idx = 0;
+      // Set up media carousel
+      const mediaCount = p.media.length;
+      const prevBtn = document.getElementById('prev');
+      const nextBtn = document.getElementById('next');
       const disp = document.querySelector('.media-display');
 
+      // Hide arrows if only one media item
+      if (mediaCount <= 1) {
+        prevBtn.style.display = 'none';
+        nextBtn.style.display = 'none';
+      }
+
+      let idx = 0;
       function show(i) {
-        idx = (i + p.media.length) % p.media.length;
+        idx = (i + mediaCount) % mediaCount;
         disp.innerHTML = '';
         const m = p.media[idx];
         const el = document.createElement(m.type === 'video' ? 'video' : 'img');
@@ -28,35 +39,40 @@ if (!id) {
         disp.appendChild(el);
       }
 
-      document.getElementById('prev').onclick = () => show(idx - 1);
-      document.getElementById('next').onclick = () => show(idx + 1);
-
+      prevBtn.onclick = () => show(idx - 1);
+      nextBtn.onclick = () => show(idx + 1);
       show(0);
+
+      // Hook up comment section
+      const submitBtn = document.getElementById('submitComment');
+      const commentBox = document.getElementById('commentText');
+      const status = document.getElementById('commentStatus');
+
+      submitBtn.addEventListener('click', () => {
+        const text = commentBox.value.trim();
+        if (!text) {
+          status.textContent = 'Please write a comment.';
+          return;
+        }
+        status.textContent = 'Submitting…';
+
+        fetch('https://script.google.com/macros/s/AKfycbyzLT0tgtsDDX0fKr8gjrschcwlVZ1Jnk5WOtm2POBqlvfNqJ9JP3HU7SvtzzRZWWXm/exec', {
+          method: 'POST',
+          mode: 'no-cors',
+          headers: { 'Content-Type': 'text/plain' },
+          body: JSON.stringify({ productId: id, comment: text })
+        })
+        .then(() => {
+          status.textContent = '☑️ Comment submitted!';
+          commentBox.value = '';
+        })
+        .catch(() => {
+          status.textContent = '⚠️ Submission failed';
+        });
+      });
+    })
+    .catch(err => {
+      console.error(err);
+      document.body.innerHTML = '<p class="error">Failed to load product.</p>';
     });
 }
-const form = document.querySelector('.product-page');
-const submitBtn = document.getElementById('submitComment');
-const commentBox = document.getElementById('commentText');
-const status = document.getElementById('commentStatus');
-
-submitBtn.addEventListener('click', () => {
-  const text = commentBox.value.trim();
-  if (!text) {
-    status.textContent = 'Please write a comment.';
-    return;
-  }
-  status.textContent = 'Submitting...';
-
-  fetch('https://script.google.com/macros/s/AKfycbyzLT0tgtsDDX0fKr8gjrschcwlVZ1Jnk5WOtm2POBqlvfNqJ9JP3HU7SvtzzRZWWXm/exec', {
-  method: 'POST',
-  mode: 'no-cors',
-  headers: { 'Content-Type': 'text/plain' },
-  body: JSON.stringify({ productId: id, comment: text })
-})
-.then(() => {
-  commentStatus.textContent = '☑️ Comment submitted!';
-  commentText.value = '';
-})
-.catch(() => commentStatus.textContent = '⚠️ Submission failed');
-
-  });
