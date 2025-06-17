@@ -34,3 +34,29 @@ if (!id) {
       show(0);
     });
 }
+const form = document.querySelector('.product-page');
+const submitBtn = document.getElementById('submitComment');
+const commentBox = document.getElementById('commentText');
+const status = document.getElementById('commentStatus');
+
+submitBtn.addEventListener('click', () => {
+  const text = commentBox.value.trim();
+  if (!text) {
+    status.textContent = 'Please write a comment.';
+    return;
+  }
+  status.textContent = 'Submitting...';
+
+  fetch('https://script.google.com/macros/s/AKfycbyzLT0tgtsDDX0fKr8gjrschcwlVZ1Jnk5WOtm2POBqlvfNqJ9JP3HU7SvtzzRZWWXm/exec', {
+  method: 'POST',
+  mode: 'no-cors',
+  headers: { 'Content-Type': 'text/plain' },
+  body: JSON.stringify({ productId: id, comment: text })
+})
+.then(() => {
+  commentStatus.textContent = '☑️ Comment submitted!';
+  commentText.value = '';
+})
+.catch(() => commentStatus.textContent = '⚠️ Submission failed');
+
+  });
