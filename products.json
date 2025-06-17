@@ -11,7 +11,7 @@
     ]
   },
   {
-    "id": "tippyCliff",
+    "id": "Tippy Cliff",
     "title": "Tippy Cliff",
     "desc": "It's a cliff that tips! The hub has a locking mechanism made out of AR500 steel. With this, the cliff can start vertical and fall, locking itself into a normal cliff position.",
     "thumbs": ["images/TippyCliffDown.jpg"],
@@ -21,7 +21,7 @@
     ]
   }, 
    {
-    "id": "flickUp",
+    "id": "Flick Up",
     "title": "Flick Up",
     "desc": "Like a sideways board, but better! Flick up includes two 30 degree sloped sides that can be used as a more challenging sideways board. Also, the name flick up comes with the signature move performed as the athlete 'flicks up' on a side to catch the hidden slot-cliff that comes at them. With so many possiblities, it's hard to not love the flicks!",
     "thumbs": ["images/IMG_0097.JPG"],
@@ -31,7 +31,7 @@
     ]
   },
   {
-    "id": "GarageDoor",
+    "id": "Garage Door",
     "title": "Garage Door",
     "desc": "With the famous slot grab, ninja has evolved greatly (thanks Brett Sims). However, making the slot dynamic has never made its impact. With the Garage Door, athletes are challenged to lead with one hand into a small, 4.5 inch wide gap to pull the door down for the comfort of both hands.",
     "thumbs": ["images/GarageDoorUp.jpg"],
@@ -71,7 +71,7 @@
     ]
   },
   {
-    "id": "DiamondRing",
+    "id": "Diamond Ring",
     "title": "Diamond Ring",
     "desc": "The Diamond Ring is almost too beautiful for the sport of ninja. Being able to magnetize sideways to a bar, the Diamond Ring has infinite possibilities!",
     "thumbs": ["images/Diamond Ring.jpg"],
@@ -92,7 +92,7 @@
     ]
   },
   {
-    "id": "OnAndOff",
+    "id": "On And Off",
     "title": "On-n-Off",
     "desc": "Just a basic board with bearings, yes. Not the most complex, however the use case is quite fun. Already being in a WNL course this past February, it is guaranteed that once you get on top of the slanted board, you are in for a wild jump backwards and huge swing through.",
     "thumbs": ["images/OnAndOff.jpg"],
@@ -102,7 +102,7 @@
     ]
   },
   {
-    "id": "PsuhCliff",
+    "id": "Push Cliff",
     "title": "Push Cliff",
     "desc": "Wait!? Its a cliff!? But it's hidden! I guess you must push to reveal!",
     "thumbs": ["images/PushCliff.jpg"],
