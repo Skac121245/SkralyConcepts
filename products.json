@@ -86,7 +86,8 @@
     "desc": "This Mustache isn't hairy, it's made with comfort in mind. Used for flipping, this Mustache took the world by storm in late January. Yes, this obstacle was called 'Flippin' Stash'.",
     "thumbs": ["images/Mustache.jpg"],
     "media": [
-      {"type":"image", "src":"images/Mustache.jpg"}
+      {"type":"image", "src":"images/Mustache.jpg"},
+      {"type":"image", "src":"images/FlippinBat.jpg"}
       
     ]
   },
