@@ -140,5 +140,15 @@
       {"type":"image", "src":"images/Cage.jpg"}
       
     ]
+  },
+  {
+    "id": "Tipping Lily",
+    "title": "Tipping Lily",
+    "desc": "A hop, skip, and a jump is all it takes to conquer this obstalce. However, a push in the wrong direction causes a complete wreck! Set the Tipping Lily's in different orientations to force a push or even a tip! With a magnet holding the Lily upright, there is no chance of malfunction from minor shaking!",
+    "thumbs": ["images/Screenshot 2025-06-19 at 8.15.33 PM.png"],
+    "media": [
+      {"type":"image", "src":"images/Screenshot 2025-06-19 at 8.15.33 PM.png"},{"type":"image", "src":"images/Screenshot 2025-06-19 at 8.17.18 PM.png"}
+      
+    ]
   }
 ]
